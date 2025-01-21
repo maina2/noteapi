@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-3wv5!qy6y&xi=#$&9%r6mn=k#+&nqf7_8+!c)z89)i-7=64!!$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["noteapi-aqa8.onrender.com","127.0.0.1","localhost"]
 
 REST_FRAMEWORK={
     "DEFAULT_AUTHENTICATION_CLASSES":(
